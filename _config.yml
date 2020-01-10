@@ -1,10 +1,10 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Steven Knight Kukard
+bio:                'Composer of music for film, theatre and games'
+description:        "Music for film, theatre and games"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "www.stevenknightkukard.com" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
@@ -17,9 +17,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           Cape Town, South Africa
+phone:
+email:              stevenkukard@gmail.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   /images/bg.jpg
@@ -51,7 +51,7 @@ sass:
   style:            compressed
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
