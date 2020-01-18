@@ -1,6 +1,7 @@
 <footer id="footer">
   <section>
     <h2 id="contact">Contact</h2>
+
     <form method="POST" action="https://api.slapform.com/{{site.email}}">
       <div class="field">
         <label for="name">Name</label>
@@ -14,8 +15,11 @@
         <label for="message">Message</label>
         <textarea name="message" id="message" rows="3"></textarea>
       </div>
+        <!-- reCAPTCHA & Submit buttons -->
       <ul class="actions">
-        <li><input type="submit" value="Send Message" /></li>
+      <div class="g-recaptcha" data-sitekey='{{site.captcha-site-key}}' data-callback="enableBtn"></div>
+      <br>
+        <li><input type="submit" value="Send Message" id="button1" disabled="true"/></li>
       </ul>
       <input type="hidden" name="slap_redirect" value="{{site.url}}{{site.slapform_thankyou_page}}" /> <!-- slap_redirect allows you to set a custom redirect/thank you page -->
     </form>

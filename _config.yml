@@ -6,6 +6,10 @@ locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.stevenknightkukard.com" # the base hostname & protocol for your site
 
+# Captcha
+captcha-site-key: 6LdkANAUAAAAAGlCOPX2oNatBnJz2WMjlYgKpTaN
+captcha-secret-key: 6LdkANAUAAAAAJcVQebkjxNZwlNIv8g0Xs0h6_gf
+
 # Comments
 disqus_shortname:   default
 
