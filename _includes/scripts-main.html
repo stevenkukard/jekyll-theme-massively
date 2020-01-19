@@ -7,10 +7,16 @@
 <script src="{{ "/assets/js/main.js" | absolute_url }}"></script>
 
 <!-- reCAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script type="text/javascript">
+
+  $(document).ready(function(){
+    $("#button1").hide();
+  });
+
   var enableBtn = function() {
-    document.getElementById("button1").disabled = false;
+    $("#button1").show();
   };
-</script>
+
+</script> -->
