@@ -6,7 +6,10 @@
     <!-- USING NETLIFY FORM SUBMISSION -->
     <!--  -->
 
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <p hidden>
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
           <div class="field">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" />
